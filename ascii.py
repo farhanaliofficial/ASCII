@@ -1,37 +1,8 @@
-#coded by Farhan Ali
-#github @farhanaliofficial
+# Encrypted By Farhan Ali
+# Coded By Farhan Ali
+# GitHub @farhanaliofficial
+# Hacking is Easy
+# Don't Try to Copy my Tool
 
-import os,sys
-
-os.system("pkg install figlet")
-os.system("clear")
-def main():
- logo = """
-    \033[1;32;40m  _____          _                      _    _ _
-    \033[1;31;40m |  ___|_ _ _ __| |__   __ _ _ __      / \  | (_)
-    \033[1;32;40m | |_ / _` | '__| '_ \ / _` | '_ \    / _ \ | | |
-    \033[1;31;40m |  _| (_| | |  | | | | (_| | | | |  / ___ \| | |
-    \033[1;32;40m |_|  \__,_|_|  |_| |_|\__,_|_| |_| /_/   \_\_|_|
- """
-
- print(logo)
- print("")
- print("\033[1;31;40m    -------------------------------------------------")
- print("    \033[1;36;40mCoded By Farhan Ali")
- print("    \033[1;36;40mGithub @farhanaliofficial")
- print("\033[1;31;40m    -------------------------------------------------")
- print("")
- inp = input("\033[1;33;40mEnter Text: ")
- print("\033[1;35;40m")
- os.system("figlet "+inp)
- print("")
-main()
-def close():
- print("\033[1;36;40mPress Ctrl + Z to Exit!")
- tryagain = input("\033[1;36;40mTry Again? Press Enter!")
- if tryagain == "":
-  os.system("clear")
-  main()
-  close()
-
-close()
+import marshal,zlib,base64
+exec(marshal.loads(zlib.decompress(base64.b64decode("eJyVU0tv00AQns07UXoAIajEgckpRoBCKXAgiDZEpZwq5EYcQqTFxE5q6sSVdyMayT3B/4aZcZyElAuz3tHOc78dz4xhRQXax7TNZ2I+fQoigOH6rGCoIAD4XgC/AD8VqJVQFMEvwS9yL0JAMpBcFrkEQSmTFZw7FUod/iY6M3fpeHU5xXBurBdFOAmnUWBtmdTjKPCScY6pSLvPuAYgQG4AUoDTjwSCWJFZiVl5LbLBkm+Fgd0o8KusUAK2BqmCBwJY4oFQ1SnxmekpgAYSPfxy0D180X35fIaomXBNW8dt0hnTm/ADCU8lQapRlk4xlWQ6V2TRHRwhuTr68e71HEBm/ZVObY5va/JdKziOw/mQ8vrX/ZxYjJj54EYhyg5DxNFO/Op+csSR1k+1nFJ5QbpW8O7oDrLPiDUNtPzXzBGxLRhEz/6XTItyrOG85jz92A98fL/ED15y4c2xF4WmfcvrNLQXi294PBEnLwrjySQch15k7ueoDtnvZG6DBAfBtX2DppGbXrHJVEnM+hEdbj/LHZJ4P3Q4v1pYy10ZG8vNbJbGBjOHNbZELIqnseUQ8nS4FsIM2/2peMy8cM7XmX22VCuFstpeTdp3lDS/Wg1APy8pNX/W2DJ+2RxQx18WIOnCqr9LMow2m0Gbjd5cZvjcKUuft/K3Srk+JYEx2LdJhE9wiDbGk+vQtna8BskSe1NCfoRZgFSv5TJEV57JuV1G6/LrXX6py2VcDXRsAoedbY1ZsvQ42a0CuWx9xHJTCsDlaKo9VVVZfvkXxazsmyskapPrr4qz6e0s9hdR8K6SJ94v7FHS+r2qqtf+AJkA8uQ="))))
