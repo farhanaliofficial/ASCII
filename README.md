@@ -8,4 +8,6 @@ ASCII is a tool used to create ascii text logo for termux scripts.
 5. pkg install git
 6. git clone https://github.com/farhanaliofficial/ASCII
 7. cd ASCII
-8. python ascii.py
+8. python2 ascii.py
+
+# Enjoy
