@@ -1,7 +1,7 @@
 # ASCII
 ASCII is a tool used to create ascii text logo for termux scripts.
 
-</br> <br>[![Github](https://img.shields.io/badge/Github-AZIM--MAHMUD-dimgray?style=flat-square&logo=github)](https://github.com/farhanaliofficial)<br> [![Facebook](https://img.shields.io/badge/Facebook-AZIM-blue?style=flat-square&logo=facebook)](https://www.facebook.com/farhanaliofficials)
+</br> <br>![GitHub followers](https://img.shields.io/badge/GitHub-Farhan%20Ali-blue)<br> [![Facebook](https://img.shields.io/badge/Facebook-AZIM-blue?style=flat-square&logo=facebook)](https://www.facebook.com/farhanaliofficials)
 
 
 <h1 align="center"> |FARHAN ALI|</h1>
